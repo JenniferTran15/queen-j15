@@ -9,7 +9,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: #619af4;
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -28,6 +28,7 @@
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   padding-top: 26px;
+  color: #66f9b7;
 }
 
 .links {
@@ -35,9 +36,9 @@
 }
 
 .links a {
-    color: black;
+    color: #619af4;
     font-size: 25px;
-    border-bottom: 1px solid #85D2F8;
+    border-bottom: 2px solid #85D2F8;
     font-family: 'open_sanslight', sans-serif;
     font-weight: bold;
 }
@@ -53,17 +54,19 @@ hr {
 h1 {
     font-family: 'open_sanslight', sans-serif;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 45px;
+    color: white;
 }
 
 h2 {
     font-family: 'open_sanssemibold', sans-serif;
+    color: white;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
 .next-quote {
-    color: #FF4C4B;
+    color: #66f9b7;
     font-family: 'open_sanssemibold', sans-serif;
     font-size: 20px;
 }
@@ -72,7 +75,8 @@ h2 {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style: italic;
   text-align: right;
-  font-size: 10px;
+  font-size: 13px;
+  color: white;
 }
 
 .logo:hover {
@@ -89,5 +93,25 @@ h2 {
     margin-left: 30%;
 }
 
+@media (max-width: 750px) {
+    .footer-blurb {
+        text-align: left;
+    }
+}
 
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
 
+h2 span {
+    color: #66f9b7;
+    font-family: 'open_sanslight', sans-serif;
+}
+
+body {
+    background: url('bulb.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
